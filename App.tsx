@@ -20,7 +20,6 @@ export default function App() {
   const myUseEffect = () => {
     console.log("myUseEffect()");
   };
-  myUseEffect();
 
   useEffect(() => {
     console.log("useEffect()");
